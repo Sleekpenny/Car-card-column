@@ -1,0 +1,154 @@
+@import url("https://fonts.google.com/specimen/Lexend+Deca");
+@import url("https://fonts.google.com/specimen/Big+Shoulders+Display");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    max-height: 100vh;
+    
+}
+
+.container {
+   
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    flex-flow: row nowrap;
+    margin: 25%
+}
+
+
+p{
+    font-size:5vh;
+    text-transform: uppercase;
+    margin-bottom: 25px; 
+    margin-top: 25px;
+    color: white;
+
+}
+
+.box{
+    margin:0px;
+    padding:35px;
+    background-color: hsl(31, 77%, 52%);
+    border-top-left-radius:10px;  border-bottom-left-radius:10px ;
+    height: 55vh;
+    font-size: 2vh;
+    color: white;
+  
+}
+
+.box1{
+    background-color: hsl(184, 100%, 22%);
+    border-radius: 0;
+}
+
+.box2{
+    background-color: hsl(179, 100%, 13%);
+    border-top-right-radius:10px;  
+    border-bottom-right-radius:10px ;
+    margin:0px;
+    padding:35px;
+    height: 55vh;
+    font-size: 2vh;
+    color: white;
+    
+}
+
+.learn {
+    margin-top:30px;
+    border-radius: 25px;
+    background-color: white;
+    padding: 12px;
+    font-family: corbel;
+    font-size: 2.5vh;
+    width: 20vh;
+    height: 7vh;
+    text-align: center;
+    color:hsl(31, 77%, 52%);
+    font-weight: bolder;
+}
+.learn1 {
+    margin-top:30px;
+    border-radius: 25px;
+    background-color: white;
+    padding: 12px;
+    font-family: corbel;
+    font-size: 2.5vh;
+    width: 20vh;
+    height: 7vh;
+    text-align: center;
+    color:hsl(184, 100%, 22%);
+    font-weight: bolder;
+}
+.learn2 {
+    margin-top:30px;
+    border-radius: 25px;
+    background-color: white;
+    padding: 12px;
+    font-family: corbel;
+    font-size: 2.5vh;
+    width: 20vh;
+    height: 7vh;
+    text-align: center;
+    color:hsl(179, 100%, 13%);;
+    font-weight: bolder;
+}
+
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+
+
+
+@media (max-width: 1440px){
+
+}
+
+@media (max-width: 375px) {
+    .container {
+   
+        display: flex;
+        justify-content: center;
+        align-items: center ;
+        flex-flow: column nowrap;
+        gap:1rem
+    }
+
+    .box{
+        margin:0px;
+        padding:25px;
+        height: 30vh;
+        font-size: 1.2vh;
+        border-radius: 0;
+      }
+
+      .box2{
+    
+        margin:0px;
+        padding:25px;
+        height: 30vh;
+        font-size: 1.2vh;
+        border-radius: 0;
+    }
+
+    p{
+        font-size:2vh;
+        margin-bottom: 10px; 
+        margin-top: 10 px;
+    }
+
+    .learn, .learn1, .learn2 {
+        margin-top:15px;
+        padding: 4px;
+        font-size: 1.5vh;
+        width: 10vh;
+        height: 3vh;
+        font-weight: bolder;
+    }
+}
